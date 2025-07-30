@@ -62,6 +62,7 @@ Correlation Analysis
 A robust preprocessing pipeline was implemented to prepare the data:
 
 **Data Splitting: **
+
 The preprocessed data was split back into training and validation sets (X_train, X_test, y_train, y_test) for model training and evaluation. A test_size of 0.2 and random_state=42 were used, with stratify=y_original_train to maintain class distribution.
 
 **Model Implementation and Evaluation**
@@ -104,10 +105,10 @@ pip install pandas numpy scikit-learn matplotlib seaborn xgboost lime tensorflow
 
 Steps to run the notebook:
 
-Clone this repository:
+**Clone this repository:**
 
-git clone <repository_url>
-cd <repository_name>
+git clone https://github.com/hertsGroup-1/Kaggle-Challenge
+cd Kaggle-Challenge
 
 Place your train.csv, test.csv, and sample_submission.csv files in the root directory of the cloned repository.
 
