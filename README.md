@@ -108,6 +108,7 @@ Steps to run the notebook:
 **Clone this repository:**
 
 git clone https://github.com/hertsGroup-1/Kaggle-Challenge
+
 cd Kaggle-Challenge
 
 Place your train.csv, test.csv, and sample_submission.csv files in the root directory of the cloned repository.
